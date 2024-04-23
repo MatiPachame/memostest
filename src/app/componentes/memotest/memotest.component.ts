@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { Pieza } from '../clases/pieza';
+import { Pieza } from '../../clases/pieza';
 import { CommonModule } from '@angular/common';
+import { PiezaComponent } from '../pieza/pieza.component';
 
 @Component({
   selector: 'app-memotest',

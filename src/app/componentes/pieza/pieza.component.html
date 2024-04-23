@@ -1,0 +1,4 @@
+<img (click)="emitirEvento()" class="rounded-circle" [src]="dorso" style="max-width: 100%;"
+    *ngIf="!pieza.seleccionada&&!pieza.descubierta" />
+<img (click)="emitirEvento()" class="rounded-circle" [src]="pieza.imagen" style="max-width: 100%;"
+    *ngIf="pieza.seleccionada||pieza.descubierta" />

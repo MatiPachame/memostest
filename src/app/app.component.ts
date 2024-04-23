@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterOutlet } from '@angular/router';
-import { MemotestComponent } from "./memotest/memotest.component";
+import { MemotestComponent } from "./componentes/memotest/memotest.component";
 
 @Component({
     selector: 'app-root',
