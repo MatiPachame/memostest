@@ -2,13 +2,14 @@ import { Component } from '@angular/core';
 import { Pieza } from '../../clases/pieza';
 import { CommonModule } from '@angular/common';
 import { PiezaComponent } from '../pieza/pieza.component';
+import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-memotest',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './memotest.component.html',
-  styleUrl: './memotest.component.css'
+    selector: 'app-memotest',
+    standalone: true,
+    templateUrl: './memotest.component.html',
+    styleUrl: './memotest.component.css',
+    imports: [CommonModule, PiezaComponent, FormsModule]
 })
 export class MemotestComponent {
     public piezas: Array<Pieza> = new Array<Pieza>();
